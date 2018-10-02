@@ -4,7 +4,6 @@ import numpy as np
 import scipy.spatial.distance
 import math
 
-
 def unique(token):
     n = []
     for i in token:
@@ -16,7 +15,7 @@ def file_len(fileName):
     with open(fileName) as f:
         for i, l in enumerate(f):
             pass
-    return i-1 # костыль ¯\_(ツ)_/¯
+    return i+1 # костыль ¯\_(ツ)_/¯
 
 def cosDist(x, y): # кастомная функция косинусового расстояния
     dotProduct = 0
