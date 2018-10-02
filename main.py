@@ -12,7 +12,7 @@ def file_len(fname):
     with open(fname) as f:
         for i, l in enumerate(f):
             pass
-    return i-1 # костыль, который подгоняет нужное мне значение (изначально было i+1)
+    return i-1 # костыль ¯\_(ツ)_/¯
 
 with open('sentences.txt', 'r') as f:
   sentences = [] # массив будет хранить все предложения в нижнем регистре (каждое слово есть элемент массива)
